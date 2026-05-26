@@ -79,6 +79,9 @@ skills/
   automate-launch/SKILL.md
 commands/
   launch.md                          User-invoked slash command: /buron:launch
+hooks/
+  hooks.json                         Claude Code hook registration
+  session-start-welcome.mjs          Prints a presence indicator at session start
 ```
 
 `skills/` are guidance the agent picks up by conversational match (description-based). `commands/` are explicit slash commands the user types — they follow a deterministic Preflight → Plan → Commands → Verification structure.
