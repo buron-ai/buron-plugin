@@ -18,5 +18,8 @@
     "conversion-tracking",
     "mcp",
     "claude-code"
+  ],
+  "commands": [
+    "./commands/launch.md"
   ]
 }

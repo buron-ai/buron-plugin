@@ -74,12 +74,16 @@ Once connected, try:
 .cursor-plugin/plugin.json           Cursor manifest
 .plugin/plugin.json                  Generic / fallback manifest
 skills/
-  launch/SKILL.md
+  launch/SKILL.md                    Agent-discovered guidance
   setup-google-ads-tracking/SKILL.md
   automate-launch/SKILL.md
+commands/
+  launch.md                          User-invoked slash command: /buron:launch
 ```
 
-Skill bodies in `skills/` are the source of truth. Other Buron surfaces (the CLI's bundled templates, the in-app skill catalog) sync from this repo.
+`skills/` are guidance the agent picks up by conversational match (description-based). `commands/` are explicit slash commands the user types — they follow a deterministic Preflight → Plan → Commands → Verification structure.
+
+Skill and command bodies in this repo are the source of truth. Other Buron surfaces (the CLI's bundled templates, the in-app skill catalog) sync from here.
 
 ## Related
 
