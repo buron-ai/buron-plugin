@@ -1,0 +1,22 @@
+{
+  "name": "buron",
+  "version": "0.1.0",
+  "description": "Connect your repo to Buron — capture launches, set up ads tracking, and drive marketing workflows from your editor.",
+  "author": {
+    "name": "Buron AI",
+    "url": "https://github.com/buron-ai"
+  },
+  "homepage": "https://buron.ai",
+  "repository": "https://github.com/buron-ai/buron-plugin",
+  "license": "MIT",
+  "keywords": [
+    "buron",
+    "marketing",
+    "launch",
+    "google-ads",
+    "ga4",
+    "conversion-tracking",
+    "mcp",
+    "claude-code"
+  ]
+}

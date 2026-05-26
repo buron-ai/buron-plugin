@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "buron": {
+      "type": "http",
+      "url": "https://app.buron.ai/api/mcp",
+      "note": "Official Buron MCP server. Uses OAuth — on first connection the agent will be prompted to authorize via Buron."
+    }
+  }
+}

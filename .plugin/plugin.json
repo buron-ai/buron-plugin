@@ -1,0 +1,24 @@
+{
+  "name": "buron-plugin",
+  "version": "0.1.0",
+  "description": "Buron plugin for AI IDEs — connects your repo to Buron via MCP and installs editor skills for launches, conversion tracking, and other marketing workflows.",
+  "author": {
+    "name": "Buron AI",
+    "url": "https://github.com/buron-ai"
+  },
+  "homepage": "https://buron.ai",
+  "repository": "https://github.com/buron-ai/buron-plugin",
+  "license": "MIT",
+  "keywords": [
+    "buron",
+    "marketing",
+    "launch",
+    "google-ads",
+    "ga4",
+    "conversion-tracking",
+    "mcp",
+    "ai-agent",
+    "claude-code",
+    "cursor"
+  ]
+}
